@@ -20,12 +20,14 @@ reduce the ability of the model to learn.
 4) Distributed the data into train and test set in 80:20 ratio.
 5) As the output of my dataset (train and test) is categorical I used one hot encoder to change it
 to the form which ML can easily understand.
+
 Model Training:
 1) Decided the appropriate model after tuning which had the lowest validation loss and more
 accuracy.
 2) Fed the training data to the model ie. Train set and trainLabels.
 3) Predicted the test data on the model and plotted the confusion matrix to check the predicted
 values of quality of wine.
+
 Evaluation:
 The model is evaluated on the test data and accuracy of the model was taken. Then confusion matrix
 of the predicted data was plotted. Confusion matrix is a table used to describe the performance of
